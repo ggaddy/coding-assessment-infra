@@ -183,6 +183,6 @@ if __name__ == "__main__":
     print("### test|test_get_pets_by_id")
     asyncio.run(test_get_pets_by_id())
 
-    # print out the first 100 results from get_all_starwars_people
+    # print out the first 15 results from get_all_starwars_people
     print("### test|get_all_starwars_people")
     asyncio.run(test_get_all_starwars_people())
