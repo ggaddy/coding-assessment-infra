@@ -124,10 +124,10 @@ async def get_all_starwars_people(
     timeout: int = 1, retries: int = 3, max_calls: int = 500
 ) -> List[Dict[str, Any]]:
     """
-    Docstring for get_all_starwars_people
+    Docstring for get_all_starwars_people - function for getting all Star Wars API information
 
     curl -X 'GET' \
-        'https://petstore3.swagger.io/api/v3/pet/findByStatus?status=available' \
+        'https://swapi.dev/api/people/' \
         -H 'accept: application/json'
     """
     _url = "https://swapi.dev/api/people/"
